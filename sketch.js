@@ -82,7 +82,7 @@ function draw() {
 
     }
   if ((touches.length>0 ||keyDown("space"))&&trex.y>=height-120){
-    jumpSound.play();
+    
     trex.velocityY=-10;
     touches=[];
   }
